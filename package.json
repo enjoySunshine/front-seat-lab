@@ -18,7 +18,7 @@
     "postinstall": "pnpm --filter @better-auth/root run build"
   },
   "devDependencies": {
-    "@colyseus/schema": "^5.0.6",
+    "@colyseus/schema": "^5.0.10",
     "@types/debug": "^0.0.31",
     "@types/express": "^5.0.0",
     "@types/ioredis": "^4.27.3",

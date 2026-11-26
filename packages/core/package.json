@@ -56,7 +56,7 @@
   "devDependencies": {
     "@colyseus/redis-driver": "workspace:^",
     "@colyseus/redis-presence": "workspace:^",
-    "@colyseus/schema": "^5.0.8",
+    "@colyseus/schema": "^5.0.10",
     "@colyseus/tools": "workspace:^",
     "express": "^5.0.0",
     "vitest": "^3.1.1"
@@ -64,7 +64,7 @@
   "peerDependencies": {
     "@colyseus/auth": "workspace:0.18.x",
     "@colyseus/better-call": "workspace:^",
-    "@colyseus/schema": "^5.0.8",
+    "@colyseus/schema": "^5.0.10",
     "@colyseus/ws-transport": "workspace:0.18.x",
     "@pm2/io": "^6.1.0",
     "express": "^4.16.0 || ^5.0.0",

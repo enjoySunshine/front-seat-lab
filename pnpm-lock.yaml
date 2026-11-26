@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@colyseus/schema':
-        specifier: ^5.0.6
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@types/debug':
         specifier: ^0.0.31
         version: 0.0.31
@@ -124,8 +124,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/transport/h3-transport
       '@colyseus/schema':
-        specifier: ^5.0.8
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@colyseus/sdk':
         specifier: workspace:^
         version: link:../../packages/sdk
@@ -443,8 +443,8 @@ importers:
         specifier: workspace:^
         version: link:../presence/redis-presence
       '@colyseus/schema':
-        specifier: ^5.0.8
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@colyseus/tools':
         specifier: workspace:^
         version: link:../tools
@@ -573,8 +573,8 @@ importers:
         specifier: workspace:^
         version: link:../presence/redis-presence
       '@colyseus/schema':
-        specifier: ^5.0.8
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@colyseus/sdk':
         specifier: workspace:^
         version: link:../sdk
@@ -839,8 +839,8 @@ importers:
         specifier: workspace:^
         version: link:../better-call/packages/better-call
       '@colyseus/schema':
-        specifier: ^5.0.8
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@colyseus/shared-types':
         specifier: workspace:^0.18.2
         version: link:../shared-types
@@ -936,8 +936,8 @@ importers:
         specifier: workspace:^
         version: link:../../core
       '@colyseus/schema':
-        specifier: ^5.0.6
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
 
   packages/shared-types:
     dependencies:
@@ -968,8 +968,8 @@ importers:
         specifier: workspace:^
         version: link:../core
       '@colyseus/schema':
-        specifier: ^5.0.8
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@colyseus/sdk':
         specifier: workspace:^
         version: link:../sdk
@@ -1055,8 +1055,8 @@ importers:
         specifier: workspace:^0.18.5
         version: link:../../core
       '@colyseus/schema':
-        specifier: ^5.0.0
-        version: 5.0.8(typescript@6.0.3)
+        specifier: ^5.0.10
+        version: 5.0.52(typescript@6.0.3)
       '@fails-components/webtransport':
         specifier: ^1.6.2
         version: 1.6.2
@@ -1569,11 +1569,14 @@ packages:
   '@colyseus/clock@2.0.3':
     resolution: {integrity: sha512-kziqG0dcGsvSfcerHLZTY1V2PmGnZAdG5DM0T5BKQDAiYBXYoMqfzA1Wxfe3KSnyeZuP99isffkUQLEwpFYF7A==}
 
-  '@colyseus/schema@5.0.8':
-    resolution: {integrity: sha512-6IaQxn4jVVJC6qzQtPLquYE5yVNitAOGiI9Yp7/vpy4MJhGiUGe/ju29dPLZecfvKobc2v/KMTgyjzEYxvbDsg==}
+  '@colyseus/schema@5.0.52':
+    resolution: {integrity: sha512-oOGFdzcCb1a8rKCxYdHg8uS4bXsCU7WoNivgMbOQNIkYV08NqIoOUKC/3umWnIwv6f9YlaATUOFeM5uM+9Sefw==}
     hasBin: true
     peerDependencies:
-      typescript: ^5.0.0 || ^6.0.0
+      typescript: '>=5.0.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   '@colyseus/timer@2.0.3':
     resolution: {integrity: sha512-75MI7LfXQncibesa7W6FKWUc8YBcVI6jwBrDXOq1TlgYQXSMRv7a5WFPBdDKkP5Pht9IWpE2hyUb8B1DPrLYqg==}
@@ -6617,10 +6620,6 @@ packages:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
 
-  iconv-lite@0.7.2:
-    resolution: {integrity: sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==}
-    engines: {node: '>=0.10.0'}
-
   iconv-lite@0.7.3:
     resolution: {integrity: sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==}
     engines: {node: '>=0.10.0'}
@@ -10483,8 +10482,8 @@ snapshots:
 
   '@colyseus/clock@2.0.3': {}
 
-  '@colyseus/schema@5.0.8(typescript@6.0.3)':
-    dependencies:
+  '@colyseus/schema@5.0.52(typescript@6.0.3)':
+    optionalDependencies:
       typescript: 6.0.3
 
   '@colyseus/timer@2.0.3':
@@ -15108,11 +15107,6 @@ snapshots:
       safer-buffer: 2.1.2
     optional: true
 
-  iconv-lite@0.7.2:
-    dependencies:
-      safer-buffer: 2.1.2
-    optional: true
-
   iconv-lite@0.7.3:
     dependencies:
       safer-buffer: 2.1.2
@@ -15610,7 +15604,7 @@ snapshots:
       jest-util: 28.1.3
       natural-compare: 1.4.0
       pretty-format: 28.1.3
-      semver: 7.8.1
+      semver: 7.8.6
     transitivePeerDependencies:
       - supports-color
 
@@ -17707,7 +17701,7 @@ snapshots:
       '@js-joda/core': 5.7.0
       '@types/node': 22.19.19
       bl: 6.1.6
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
       js-md4: 0.3.2
       native-duplexpair: 1.0.0
       sprintf-js: 1.1.3

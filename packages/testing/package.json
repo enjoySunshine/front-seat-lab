@@ -41,7 +41,7 @@
   "devDependencies": {
     "@colyseus/auth": "workspace:^",
     "@colyseus/core": "workspace:^",
-    "@colyseus/schema": "^5.0.8",
+    "@colyseus/schema": "^5.0.10",
     "@colyseus/sdk": "workspace:^",
     "@colyseus/tools": "workspace:^",
     "@colyseus/ws-transport": "workspace:^"
